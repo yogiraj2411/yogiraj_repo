@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote  name="myremote"
-           fetch=""
-           review="githuburl" />
-<remote name="aosp" fetch=".." review="aosp-gerrit-url"/>
+           fetch=".."
+           review="https://github.com"/>
   <default revision="master"
-           remote="aosp"
+           remote="myremote"
            sync-j="4" />
+
+
+<project path="https://github.com/yogiraj2411/yogiraj_repo.git" name="yogiraj2411/yogiraj_repo.git"/>
+</manifest>

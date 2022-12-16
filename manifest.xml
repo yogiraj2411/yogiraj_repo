@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote  name="myremote"
+           fetch=".."
+           review="https://github.com" />
+<remote name="aosp" fetch=".." review="aosp-gerrit-url"/>
+  <default revision="master"
+           remote="aosp"
+           sync-j="4" />
+
+
+<project path="https://github.com/yogiraj2411/githubass1.git" name="yogiraj2411/githubass1" />
+</manifest>

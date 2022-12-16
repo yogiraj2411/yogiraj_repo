@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote  name="myremote"
+           fetch=""
+           review="githuburl" />
+<remote name="aosp" fetch=".." review="aosp-gerrit-url"/>
+  <default revision="master"
+           remote="aosp"
+           sync-j="4" />

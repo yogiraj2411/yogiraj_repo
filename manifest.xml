@@ -5,5 +5,6 @@
   <default revision="main" remote="myremote" sync-j="4" />
    <project path="Android/yogirajs_repo" name="yogiraj2411/yogiraj_repo" />
    <project name="amruthaar93/githubasgn1" path="Android/amruthas_code" />
+   <project name="daryappa07/daryappa" path="Android/daryappa_code" />
  
 </manifest>

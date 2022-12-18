@@ -7,7 +7,7 @@
 	<default revision="master" remote="shopping_mall_03" sync-j="4" />
 		<!--
 		<project path="Android/yogirajs_repo" name="yogiraj2411/yogiraj_repo" />-->
-   <project name="amruthaar93/githubasgn1" path="Android/amruthas_code" remote="shopping_mall_01" revision="main"/>
+   <project name="amruthaar93/githubasgn1" path="Android/amruthas_code" remote="shopping_mall_01" revision="4e9d34c2f75ac22f8906f7eebbdb78447fead528"/>
    <!--   <project name="daryappa07/daryappa" path="Android/daryappa_code" />
    <project name="nikhilswamyanabur/nikhil" path="Android/nikhil_code" />
    <project name="mondaypurples/shell-scripting-while-loop" path="yogi/while_loop" />

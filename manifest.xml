@@ -10,7 +10,7 @@
    <project name="mondaypurples/shell-scripting-while-loop" path="yogi/while_loop" />
    <project name="nyaundid/EC2-AWS-AND-SHELL" path="yogi/while_new" revision="master" />
    <project name="MadhavBahl/shebang-everything" path="yogi/if" revision="master" />
-   <project name="tools/repo" path="aosp/one_project" remote="aosp" revision="main" />
+   <project name="tools/repo" path="aosp/oneproject" remote="aosp" revision="repo-1" />
 
 
 </manifest>

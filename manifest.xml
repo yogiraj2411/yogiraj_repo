@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         <remote  name="myremote" fetch=".." review="https://github.com" />
-	<remote name="gerrit" fetch="https://gerrit.googlesource.com/" review="https://gerrit.googlesource.com"/>
+	<remote name="gerrit" fetch="https://gerrit.googlesource.com" review="https://gerrit.googlesource.com"/>
+         <remote name="android" fetch="https://android.googlesource.com" review="https://android.googlesource.com"/>
+
     <!--  <default revision="main" remote="myremote" sync-j="4" />
     <project path="Android/yogirajs_repo" name="yogiraj2411/yogiraj_repo" />
    <project name="amruthaar93/githubasgn1" path="Android/amruthas_code" />
@@ -10,7 +12,8 @@
    <project name="mondaypurples/shell-scripting-while-loop" path="yogi/while_loop" />
    <project name="nyaundid/EC2-AWS-AND-SHELL" path="yogi/while_new" revision="master" />
   <project name="MadhavBahl/shebang-everything" path="yogi/if" revision="master" />   -->
-   <project name="git-repo" path="aosp/oneproject" remote="gerrit" revision="main" />
-
+  <project name="buck" path="yogi24/oneproject" remote="gerrit" revision="master"/>
+  <project name="tools/repo" path="yogi24/secondproject" remote="android" revision="master" />
+  
 
 </manifest>

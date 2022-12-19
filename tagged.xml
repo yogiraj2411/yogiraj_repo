@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="shopping_mall_01" fetch=".." review="https://github.com"/>
+  <remote name="shopping_mall_02" fetch="https://gerrit.googlesource.com" review="https://gerrit.googlesource.com"/>
+  <remote name="shopping_mall_03" fetch="https://android.googlesource.com" review="https://android.googlesource.com"/>
+  
+  <default remote="shopping_mall_03" revision="master" sync-j="4"/>
+  
+  <project name="amruthaar93/githubasgn1" path="Android/amruthas_code" remote="shopping_mall_01" revision="7e30a627791d7593d1384068f4daa5ed7215d71c" dest-branch="main"/>
+  <project name="buck" path="Android/yogi24/oneproject" remote="shopping_mall_02" revision="2b80cf780ae31bee6609ebc1bbab9ce6fd004dbe" dest-branch="master" groups="audio"/>
+  <project name="tools/repo" path="Android/yogi24/secondproject" revision="1f20776dbb3b87ba39928dc4baba58f9c2d17c80" dest-branch="master" groups="notdefault"/>
+</manifest>
